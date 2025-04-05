@@ -1,0 +1,49 @@
+<section class="trusted-sec">
+  <div class="container">
+    <h3 class="mb-20 heading text-center fs-64">Trusted by <span>Leading</span> Companies</h3>
+    <p class="trusted-para mx-auto mb-30">
+      At NEVER FORGET, we take pride in working with some of the most recognized brands in the industry to deliver high-quality appreciation gifts and corporate solutions. Our collaborations help us provide businesses with the best selection of flowers, gift baskets, chocolates, and more—ensuring every gift leaves a lasting impression.
+    </p>
+    <div class="lg-card-wrapper mx-auto mb-20">
+      <h5 class="heading fs-32 text-center mx-auto" style="max-width: 990px">
+        We work closely with <span>Amazon</span> to provide high-quality appreciation gifts and seamless order fulfillment.
+      </h5>
+    </div>
+    <p class="text-center mb-30 opacity-50">Exclusive Product Provider</p>
+    <div class="row brands-card-container mb-40">
+      <div class="col">
+        <div class="light-card">
+          <img src="./assets/images/brand-01.png" alt="">
+        </div>
+        <p>Official Corporate Gifting Partner</p>
+      </div>
+      <div class="col">
+        <div class="light-card">
+          <img src="./assets/images/brand-02.png" alt="">
+        </div>
+        <p>Logistics & Fulfilment Partner</p>
+      </div>
+      <div class="col">
+        <div class="light-card">
+          <img src="./assets/images/brand-03.png" alt="">
+        </div>
+        <p>Brand Collaboration Specialist</p>
+      </div>
+      <div class="col">
+        <div class="light-card">
+          <img src="./assets/images/brand-04.png" alt="">
+        </div>
+        <p>Sustainability Advocate</p>
+      </div>
+      <div class="col">
+        <div class="light-card">
+          <img src="./assets/images/brand-05.png" alt="">
+        </div>
+        <p>Innovative Technology Solutions</p>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <a href="" class="btn primary-btn border-0">Want to Collaborate? Let's Talk</a>
+    </div>
+  </div>
+</section>
