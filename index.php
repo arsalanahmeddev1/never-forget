@@ -14,7 +14,7 @@ include('./include/header.php');
         <p class="mb-30" style="max-width: 550px;">
           Strengthen relationships, boost morale, and retain top talent with personalized corporate gifting and employee appreciation programs.
         </p>
-        <a href="" class="btn primary-btn border-0">Explore Corporate Gifting Plans</a>
+        <a href="" class="btn primary-btn border-0"><span class="button-content">Explore Corporate Gifting Plans</span></a>
         <a href="" class="btn secondry-btn ms-4">Call Now</a>
       </div>
     </div>
@@ -53,30 +53,79 @@ include('./include/header.php');
     </div>
     <div class="row">
       <div class="solutions-slider-wrapper mb-40">
-        <div class="d-flex align-items-center gap-30">
-          <div class="solutions-main-img-wrapper">
-            <img src="./assets/images/solutions-img-lg.png" alt="">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="slider slider-for">
+              <div class="d-flex">
+                <div class="solutions-main-img-wrapper">
+                  <img src="./assets/images/solutions-img-lg.png" alt="">
+                </div>
+                <div class="text-content">
+                  <h4 class="heading light-black fs-40 mb-30">
+                    Employee Appreciation <span>Programs</span>
+                  </h4>
+                  <p>Celebrate work anniversaries, birthdays, and milestones.</p>
+                </div>
+              </div>
+              <!-- Repeat for other slides -->
+              <div class="d-flex">
+                <div class="solutions-main-img-wrapper">
+                  <img src="./assets/images/solutions-img-lg.png" alt="">
+                </div>
+                <div class="text-content">
+                  <h4 class="heading light-black fs-40 mb-30">
+                    Employee Appreciation <span>Programs</span>
+                  </h4>
+                  <p>Celebrate work anniversaries, birthdays, and milestones.</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="solutions-main-img-wrapper">
+                  <img src="./assets/images/solutions-img-lg.png" alt="">
+                </div>
+                <div class="text-content">
+                  <h4 class="heading light-black fs-40 mb-30">
+                    Employee Appreciation <span>Programs</span>
+                  </h4>
+                  <p>Celebrate work anniversaries, birthdays, and milestones.</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="solutions-main-img-wrapper">
+                  <img src="./assets/images/solutions-img-lg.png" alt="">
+                </div>
+                <div class="text-content">
+                  <h4 class="heading light-black fs-40 mb-30">
+                    Employee Appreciation <span>Programs</span>
+                  </h4>
+                  <p>Celebrate work anniversaries, birthdays, and milestones.</p>
+                </div>
+              </div>
+              <!-- Add remaining slides as needed -->
+            </div>
           </div>
-          <div style="max-width: 240px">
-            <h4 class="heading light-black fs-40 mb-30">
-              Employee Appreciation <span>Programs</span>
-            </h4>
-            <p class="">
-              Celebrate work anniversaries, birthdays, and milestones.
-            </p>
+          <div class="col-lg-5">
+            <div class="slider slider-nav">
+              <div class="solutions-right-img-wrapper">
+                <img src="./assets/images/solutions-img-md-01.png" alt="">
+              </div>
+              <div class="solutions-right-img-wrapper">
+                <img src="./assets/images/solutions-img-md-02.png" alt="">
+              </div>
+              <div class="solutions-right-img-wrapper">
+                <img src="./assets/images/solutions-img-md-03.png" alt="">
+              </div>
+              <div class="solutions-right-img-wrapper">
+                <img src="./assets/images/solutions-img-md-03.png" alt="">
+              </div>
+            </div>
           </div>
-          <div class="d-flex align-items-center gap-20">
-            <div class="solutions-right-img-wrapper">
-              <img src="./assets/images/solutions-img-md-01.png" alt="">
+          <div class="testimonials-arrows  solution-arrows  d-flex align-items-center gap-30 justify-content-center">
+            <div class="arrow-left arrows">
+              <img src="./assets/images/arrow-left.png" alt="">
             </div>
-            <div class="solutions-right-img-wrapper">
-              <img src="./assets/images/solutions-img-md-02.png" alt="">
-            </div>
-            <div class="solutions-right-img-wrapper">
-              <img src="./assets/images/solutions-img-md-03.png" alt="">
-            </div>
-            <div class="solutions-right-img-wrapper">
-              <img src="./assets/images/solutions-img-md-04.png" alt="">
+            <div class="arrow-right arrows">
+              <img src="./assets/images/arrow-left.png" alt="">
             </div>
           </div>
         </div>
@@ -273,7 +322,7 @@ include('./include/header.php');
     </div>
   </div>
 </section>
-<?php include('./include/plans.php')?>
-<?php include('./include/gift-plan.php')?>
+<?php include('./include/plans.php') ?>
+<?php include('./include/gift-plan.php') ?>
 <?php include('./include/footer.php') ?>
 <?php include('./include/scripts.php') ?>

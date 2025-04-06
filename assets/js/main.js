@@ -5,9 +5,8 @@ images.forEach(img => {
 });
 
 // mobile menu
-let navs = document.querySelector('.primary-nav');
+let navs = document.querySelector('.primary-navs');
 let menuIcon = document.querySelectorAll('.menu-toggle');
-console.log(navs, menuIcon);
 menuIcon.forEach(function (e) {
   e.addEventListener('click', function () {
     navs.classList.toggle('active');
@@ -51,21 +50,41 @@ $('.testimonials-slider').slick({
   // ]
 });
 
-
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true,
+  prevArrow: '.solution-arrows .arrow-left',
+  nextArrow: '.solution-arrows .arrow-right',
+});
 document.addEventListener('DOMContentLoaded', () => {
   const truncatedText = document.getElementById('truncated-text');
   const fullText = document.getElementById('full-text');
   const readMoreLink = document.getElementById('read-more-link');
+  if (readMoreLink) {
 
-  readMoreLink.addEventListener('click', () => {
-    if (fullText.classList.contains('hidden')) {
-      fullText.classList.remove('hidden');
-      truncatedText.classList.add('hidden');
-      readMoreLink.textContent = 'Read Less';
-    } else {
-      fullText.classList.add('hidden');
-      truncatedText.classList.remove('hidden');
-      readMoreLink.textContent = 'Read More';
-    }
-  });
+
+    readMoreLink.addEventListener('click', () => {
+      if (fullText.classList.contains('hidden')) {
+        fullText.classList.remove('hidden');
+        truncatedText.classList.add('hidden');
+        readMoreLink.textContent = 'Read Less';
+      } else {
+        fullText.classList.add('hidden');
+        truncatedText.classList.remove('hidden');
+        readMoreLink.textContent = 'Read More';
+      }
+    });
+  }
 });
+
