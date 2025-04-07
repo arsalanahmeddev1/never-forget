@@ -34,14 +34,14 @@
       </div>
       <div class="col-lg-9">
         <ul class="primary-nav d-flex align-items-center justify-content-between">
-          <li><a href="javascript:;">Home</a></li>
-          <li><a href="javascript:;">About Us</a></li>
-          <li><a href="javascript:;">Shop</a></li>
-          <li><a href="javascript:;">How It Works</a></li>
-          <li><a href="javascript:;">Corporate Solution </a></li>
-          <li><a href="javascript:;">Testimonials</a></li>
-          <li><a href="javascript:;">Blogs</a></li>
-          <li><a href="javascript:;">Contact Us</a></li>
+          <li><a href="./">Home</a></li>
+          <li><a href="./about-us.php">About Us</a></li>
+          <li><a href="./shop.php">Shop</a></li>
+          <li><a href="./how-it-works.php">How It Works</a></li>
+          <li><a href="./corporate-solutions.php">Corporate Solution </a></li>
+          <li><a href="./testimonials.php">Testimonials</a></li>
+          <li><a href="./blogs.php">Blogs</a></li>
+          <li><a href="./contact.php">Contact Us</a></li>
           <div class="sm-circle text-white d-flex align-items-center justify-content-center">
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>

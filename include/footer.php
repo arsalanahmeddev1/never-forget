@@ -12,9 +12,9 @@
           Quick <span>Links</span>
         </h3>
         <ul class="footer-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Corporate Gifting Solutions</a></li>
+          <li><a href="./">Home</a></li>
+          <li><a href="../about-us.php">About Us</a></li>
+          <li><a href="../corporate-solutions.php">Corporate Gifting Solutions</a></li>
           <li><a href="#">Partner with Us</a></li>
           <li><a href="#">FAQ’s</a></li>
           <li><a href="#">Case Studies</a></li>

@@ -643,6 +643,7 @@ p {
 .contact-form-container {
   background-color: #F9F9F9;
   padding: var(--text-40) var(--text-70);
+  border-radius: var(--text-20);
 }
 .label-field {
   display: flex;
