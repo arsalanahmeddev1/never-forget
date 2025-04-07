@@ -1,9 +1,24 @@
+$(document).ready(function () {
+  $("#loading-screen").delay(2000).fadeOut("slow");
+  $(".loading").delay(2000).fadeOut("slow");
+});
+AOS.init();
 // for lazy load in images
 const images = document.querySelectorAll('img');
 images.forEach(img => {
   img.setAttribute('loading', 'lazy');
 });
 
+const primaryBtn = document.querySelectorAll('.primary-btn');
+document.querySelectorAll('.btn').forEach((btn) => {
+  if (!btn.querySelector('span')) {
+    const text = btn.textContent.trim();
+    const span = document.createElement('span');
+    span.textContent = text;
+    btn.textContent = '';
+    btn.appendChild(span);
+  }
+});
 // mobile menu
 let navs = document.querySelector('.primary-navs');
 let menuIcon = document.querySelectorAll('.menu-toggle');
@@ -17,7 +32,7 @@ $('.testimonials-slider').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 2,
-  slidesToScroll: 1,
+  slidesToScroll: 2,
   prevArrow: '.testimonials-arrows .arrow-left',
   nextArrow: '.testimonials-arrows .arrow-right',
   // responsive: [

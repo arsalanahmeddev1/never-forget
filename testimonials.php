@@ -26,12 +26,12 @@ include('./include/head.php');
         <div class="d-flex justify-content-center">
           <div class="card-wrapper test-card-wrapper position-relative">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-lg-4">
                 <div class="test-card-img-wrapper">
                   <img src="./assets/images/testimonials-img-01.png" alt="" loading="lazy">
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div class="col-lg-8">
                 <ul class="ratings mb-22 d-flex align-items-center gap-10">
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
@@ -57,12 +57,12 @@ include('./include/head.php');
         <div class="d-flex justify-content-center">
           <div class="card-wrapper test-card-wrapper position-relative">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-lg-4">
                 <div class="test-card-img-wrapper">
                   <img src="./assets/images/testimonials-img-02.png" alt="" loading="lazy">
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div class="col-lg-8">
                 <ul class="ratings mb-22 d-flex align-items-center gap-10">
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
@@ -88,12 +88,12 @@ include('./include/head.php');
         <div class="d-flex justify-content-center">
           <div class="card-wrapper test-card-wrapper position-relative">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-lg-4">
                 <div class="test-card-img-wrapper">
                   <img src="./assets/images/testimonials-img-03.png" alt="" loading="lazy">
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div class="col-lg-8">
                 <ul class="ratings mb-22 d-flex align-items-center gap-10">
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
@@ -119,12 +119,12 @@ include('./include/head.php');
         <div class="d-flex justify-content-center">
           <div class="card-wrapper test-card-wrapper position-relative">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-lg-4">
                 <div class="test-card-img-wrapper">
                   <img src="./assets/images/testimonials-img-04.png" alt="" loading="lazy">
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div class="col-lg-8">
                 <ul class="ratings mb-22 d-flex align-items-center gap-10">
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
@@ -150,12 +150,12 @@ include('./include/head.php');
         <div class="d-flex justify-content-center">
           <div class="card-wrapper test-card-wrapper position-relative">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-lg-4">
                 <div class="test-card-img-wrapper">
                   <img src="./assets/images/testimonials-img-05.png" alt="" loading="lazy">
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div class="col-lg-8">
                 <ul class="ratings mb-22 d-flex align-items-center gap-10">
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>
@@ -181,12 +181,12 @@ include('./include/head.php');
         <div class="d-flex justify-content-center">
           <div class="card-wrapper test-card-wrapper position-relative">
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-lg-4">
                 <div class="test-card-img-wrapper">
                   <img src="./assets/images/testimonials-img-06.png" alt="" loading="lazy">
                 </div>
               </div>
-              <div class="col-lg-9">
+              <div class="col-lg-8">
                 <ul class="ratings mb-22 d-flex align-items-center gap-10">
                   <li><i class="fa-solid fa-star"></i></li>
                   <li><i class="fa-solid fa-star"></i></li>

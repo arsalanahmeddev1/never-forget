@@ -1,5 +1,6 @@
 <header class="header">
-  <div class="top-bar">
+  <div class="top-bar" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+  data-aos-duration="1000">
     <div class="container me-0">
       <div class="row justify-content-end">
         <div class="col-lg-9 top-bar-container">
@@ -28,29 +29,31 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-3 col-6">
-        <div class="logo">
+        <div class="logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
           <img src="./assets/images/logo.png" alt="logo">
         </div>
       </div>
       <div class="col-lg-9 col-1">
-        <div class="primary-navs">
+        <div class="primary-navs" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
           <div class="primary-navs-inner">
             <ul class="primary-navs-list d-flex align-items-center justify-content-between">
               <div class="close-icon">
                 <i class="fa-solid fa-xmark menu-toggle"></i>
               </div>
-              <li><a href="javascript:;">Home</a></li>
-              <li><a href="javascript:;">About Us</a></li>
-              <li><a href="javascript:;">Shop</a></li>
-              <li><a href="javascript:;">How It Works</a></li>
-              <li><a href="javascript:;">Corporate Solution </a></li>
-              <li><a href="javascript:;">Testimonials</a></li>
-              <li><a href="javascript:;">Blogs</a></li>
-              <li><a href="javascript:;">Contact Us</a></li>
+              <li><a class="navs" href="javascript:;">Home</a></li>
+              <li><a class="navs" href="javascript:;">About Us</a></li>
+              <li><a class="navs" href="javascript:;">Shop</a></li>
+              <li><a class="navs" href="javascript:;">How It Works</a></li>
+              <li><a class="navs" href="javascript:;">Corporate Solution </a></li>
+              <li><a class="navs" href="javascript:;">Testimonials</a></li>
+              <li><a class="navs" href="javascript:;">Blogs</a></li>
+              <li><a class="navs" href="javascript:;">Contact Us</a></li>
               <div class="sm-circle text-white d-flex align-items-center justify-content-center">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </div>
-              <a href="" class="btn primary-btn">Get A Custom Quote</a>
+              <a href="" class="btn primary-btn"><span class="button-content">Get A Custom Quote</span></a>
             </ul>
           </div>
         </div>

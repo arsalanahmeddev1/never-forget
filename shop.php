@@ -6,7 +6,8 @@ include('./include/head.php');
   <?php include('./include/header.php'); ?>
   <section class="inner-banner">
     <div class="container">
-      <h1 class="heading fs-74">Shop</h1>
+      <h1 class="heading fs-74" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">Shop</h1>
     </div>
   </section>
 </main>
@@ -14,8 +15,10 @@ include('./include/head.php');
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-6">
-        <span class="btn des-wrapper mb-30">Elevate Employee & Client Appreciation</span>
-        <h2 class="heading fs-74 mb-30">Corporate <span>Gifts</span></h2>
+        <span class="btn des-wrapper mb-30" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Elevate Employee & Client Appreciation</span>
+        <h2 class="heading fs-74 mb-30" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Corporate <span>Gifts</span></h2>
       </div>
     </div>
     <div class="row">
@@ -1107,12 +1110,14 @@ include('./include/head.php');
   </div>
   </div>
 </section>
-<section class="shop-sec-2 py-150">
+<section class="shop-sec-2 pb-150">
   <div class="container">
     <div class="row text-center justify-content-center">
       <div class="col-lg-6">
-        <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
-        <h2 class="heading fs-74 mb-30">Customer <span>Favorites</span></h2>
+        <span class="btn des-wrapper mb-30" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Never Forget Showing Appreciation</span>
+        <h2 class="heading fs-74 mb-30" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Customer <span>Favorites</span></h2>
       </div>
     </div>
     <div class="row">

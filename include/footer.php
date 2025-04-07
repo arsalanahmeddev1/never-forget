@@ -1,6 +1,7 @@
 <footer class="footer">
   <div class="container">
-    <div class="row">
+    <div class="row" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000">
       <div class="col-lg-3">
         <img src="./assets/images/logo-light.png" class="logo-light mb-20" alt="">
         <p class="text-white">
