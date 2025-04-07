@@ -1,15 +1,18 @@
 <section class="plans-sec pb-60">
   <div class="container">
     <div class="text-center">
-      <span class="btn des-wrapper mb-20">Never Forget Showing Appreciation</span>
-      <h2 class="heading fs-64 mb-20 mx-auto" style="max-width: 640px;">
+      <span class="btn des-wrapper mb-20" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">Never Forget Showing Appreciation</span>
+      <h2 class="heading fs-64 mb-20 mx-auto" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" style="max-width: 640px;">
         Subscription Plans for <span>Businesses</span>
       </h2>
-      <p class="mx-auto mb-80" style="max-width: 470px">
+      <p class="mx-auto mb-80" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" style="max-width: 470px">
         Flexible pricing tailored to your business needs.
       </p>
     </div>
-    <div class="row">
+    <div class="row justify-content-center row-gap-50">
       <div class="col-lg-4 col-md-6">
         <div class="card-wrapper plans-card-wrapper position-relative">
           <div class="sm-circle circle-md d-flex align-items-center justify-content-center mx-auto mb-10">

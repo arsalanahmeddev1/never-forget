@@ -6,14 +6,16 @@ include('./include/head.php');
   <?php include('./include/header.php'); ?>
   <section class="inner-banner">
     <div class="container">
-      <h1 class="heading fs-74">Our <span>Corporate</span> Solutions</h1>
+      <h1 class="heading fs-74" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Our <span>Corporate</span> Solutions</h1>
     </div>
   </section>
 </main>
 <section class="cs-sec-1 py-150">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
         <h2 class="heading fs-64 mb-30">Employee <span>Appreciation</span> & Rewards</h2>
         <p class="mb-20">Show your appreciation and boost employee morale with personalized <br> gifts designed to recognize hard work and dedication.</p>
@@ -27,7 +29,8 @@ include('./include/head.php');
         </ul>
         <a href="" class="btn primary-btn border-0">Get A Quote</a>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <div class="img-wrapper position-relative">
           <img src="./assets/images/cs-sec-1.png" alt="">
         </div>
@@ -38,12 +41,14 @@ include('./include/head.php');
 <section class="cs-sec-2 pb-150">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <div class="img-wrapper position-relative">
           <img src="./assets/images/cs-sec-2.png" alt="">
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
         <h2 class="heading fs-64 mb-30">Client & Partner <span>Appreciation</span></h2>
         <p class="mb-20">Strengthen business relationships by sending gifts that reflect your <br> appreciation and reinforce brand loyalty.</p>
@@ -65,7 +70,8 @@ include('./include/head.php');
   <div class="container">
     <div class="row justify-content-between">
 
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
         <h2 class="heading fs-64 mb-30">Branded Corporate <span>Gifting</span></h2>
         <p class="mb-20">Make every gift an extension of your brand with customized <br> packaging, premium branding, and high-quality product selections.</p>
@@ -79,7 +85,8 @@ include('./include/head.php');
         </ul>
         <a href="" class="btn primary-btn border-0">Get A Quote</a>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <div class="img-wrapper position-relative">
           <img src="./assets/images/cs-sec-3.png" alt="">
         </div>
@@ -90,12 +97,14 @@ include('./include/head.php');
 <section class="cs-sec-4 pb-150">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <div class="img-wrapper position-relative">
           <img src="./assets/images/cs-sec-4.png" alt="">
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
         <h2 class="heading fs-64 mb-30">Event & <span>Holiday</span> <br> Gifting</h2>
         <p class="mb-20">Make every gift an extension of your brand with customized <br> packaging, premium branding, and high-quality product selections.</p>
@@ -112,9 +121,9 @@ include('./include/head.php');
     </div>
   </div>
 </section>
-<?php include('./include/plans.php')?>
-<?php include('./include/gift-plan.php')?>
-<?php include('./include/perfect-gifting.php')?>
+<?php include('./include/plans.php') ?>
+<?php include('./include/gift-plan.php') ?>
+<?php include('./include/perfect-gifting.php') ?>
 
 <?php include('./include/footer.php') ?>
 <?php include('./include/scripts.php') ?>

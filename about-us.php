@@ -6,7 +6,8 @@ include('./include/head.php');
   <?php include('./include/header.php'); ?>
   <section class="inner-banner">
     <div class="container">
-      <h1 class="heading fs-74">About <span>Us</span></h1>
+      <h1 class="heading fs-74" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">About <span>Us</span></h1>
     </div>
   </section>
 </main>
@@ -14,11 +15,13 @@ include('./include/head.php');
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6">
-        <div class="img-wrapper position-relative">
+        <div class="img-wrapper position-relative" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
           <img src="./assets/images/about-sec-2.png" alt="About Us">
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
         <h2 class="heading fs-74 mb-30">Gifting is more than just an <span>exchange</span></h2>
         <p class="mb-30" style="max-width: 555px">
@@ -35,7 +38,8 @@ include('./include/head.php');
 <section class="about-sec-3 py-140">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
         <h2 class="heading fs-74 mb-30">Our <span>Vision</span></h2>
         <p class="mb-30" style="max-width: 675px">
@@ -48,7 +52,8 @@ include('./include/head.php');
         <p class="light-black opacity-50">That’s our vision for corporate gifting!</p>
       </div>
       <div class="col-lg-6">
-        <div class="img-wrapper position-relative">
+        <div class="img-wrapper position-relative" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
           <img src="./assets/images/about-sec-3.png" alt="Our Vision">
         </div>
       </div>
@@ -59,11 +64,14 @@ include('./include/head.php');
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-6">
-        <span class="btn des-wrapper mb-30 text-center mx-0">Never Forget Showing Appreciation</span>
-        <h2 class="heading fs-74 mb-30 text-center">Our <span>Services</span></h2>
+        <span class="btn des-wrapper mb-30 text-center mx-0" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Never Forget Showing Appreciation</span>
+        <h2 class="heading fs-74 mb-30 text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Our <span>Services</span></h2>
       </div>
     </div>
-    <div class="row">
+    <div class="row" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000">
       <div class="col-md-6 col-lg-3">
         <div class="services-card-wrapper">
           <img src="./assets/images/services/01.png" class="mb-10" alt="Tailored Gifting Plans">
@@ -95,10 +103,11 @@ include('./include/head.php');
     </div>
   </div>
 </section>
-<section class="about-sec-4 py-150">
+<section class="about-sec-5 py-150">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
         <h2 class="heading fs-74 mb-30">Why <span>Choose</span> Us?</h2>
         <div class="mb-30">
@@ -127,7 +136,8 @@ include('./include/head.php');
           </div>
       </div>
       <div class="col-lg-6">
-        <div class="img-wrapper position-relative">
+        <div class="img-wrapper position-relative" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
           <img src="./assets/images/why-choose.png" alt="">
         </div>
       </div>

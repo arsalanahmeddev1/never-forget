@@ -6,7 +6,8 @@ include('./include/head.php');
   <?php include('./include/header.php'); ?>
   <section class="inner-banner">
     <div class="container">
-      <h1 class="heading fs-74">Our <span>Blogs</span></h1>
+      <h1 class="heading fs-74" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">Our <span>Blogs</span></h1>
     </div>
   </section>
 </main>
