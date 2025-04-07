@@ -26,23 +26,21 @@ include('./include/header.php');
 <section class="about-sec py-140">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="img-wrapper position-relative" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
           data-aos-duration="1000">
+        <div class="img-wrapper position-relative">
           <img src="./assets/images/about-us-sec-img.png" alt="About Us">
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
         <span class="btn des-wrapper mb-30" data-aos="flip-up" data-aos-easing="ease-out-cubic"
           data-aos-duration="1000">Never Forget Showing Appreciation</span>
-        <h2 class="heading fs-74 mb-30" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-          data-aos-duration="1000">About <span>Us</span></h2>
-        <p class="mb-30" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-          data-aos-duration="1000" style="max-width: 555px">
+        <h2 class="heading fs-74 mb-30">About <span>Us</span></h2>
+        <p class="mb-30" style="max-width: 555px">
           Welcome to customer, employee, and individual connections & appreciation, where we believe that business is built on more than just transactions – it’s built on genuine connections and heartfelt appreciation.
         </p>
-        <p class="mb-30" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-          data-aos-duration="1000" style="max-width: 555px">
+        <p class="mb-30" style="max-width: 555px">
           Founded with a passion for fostering meaningful relationships, our mission is to help businesses like yours cultivate loyalty, trust, and lasting connections with your clients.
         </p>
         <a href="" class="btn primary-btn border-0"><span>More About Us</span></a>

@@ -6,7 +6,8 @@ include('./include/head.php');
   <?php include('./include/header.php'); ?>
   <section class="inner-banner">
     <div class="container">
-      <h1 class="heading fs-74">Contact <span>Us</span></h1>
+      <h1 class="heading fs-74" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Contact <span>Us</span></h1>
     </div>
   </section>
 </main>
@@ -14,9 +15,12 @@ include('./include/head.php');
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-6">
-        <span class="btn des-wrapper mb-30">Get In Touch</span>
-        <h2 class="heading fs-64 mb-30">CONTACT <span>FORM</span></h2>
-        <p class="mb-60">
+        <span class="btn des-wrapper mb-30" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">Get In Touch</span>
+        <h2 class="heading fs-64 mb-30" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">CONTACT <span>FORM</span></h2>
+        <p class="mb-60" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
           Fill out the form below, and we’ll get back to you as soon as possible.
         </p>
       </div>
@@ -93,12 +97,14 @@ include('./include/head.php');
 <section class="contact-sec-2 pb-150">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <div class="img-wrapper position-relative">
           <img src="./assets/images/contact-sec.png" alt="">
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <span class="btn des-wrapper mb-20">Never Forget Showing Appreciation</span>
         <h2 class="heading fs-74 mb-30">Why <span>Contact</span>Us?</h2>
         <div class="mb-30">
@@ -132,7 +138,8 @@ include('./include/head.php');
 <section class="contact-sec-2 pb-150">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <span class="btn des-wrapper mb-20">Never Forget CONTACT INFORMATION</span>
         <h2 class="heading fs-74 mb-30">CONTACT <span>INFORMATION</span></h2>
         <a href="tel:(843) 998-9900" class="gap-20 mb-30 d-flex align-items-center text-white sm-circle-wrapper">
@@ -157,7 +164,8 @@ include('./include/head.php');
           <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
         </ul>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
         <div class="img-wrapper position-relative">
           <img src="./assets/images/contact-info.png" alt="">
         </div>
@@ -165,3 +173,5 @@ include('./include/head.php');
     </div>
   </div>
 </section>
+<?php include('./include/footer.php') ?>
+<?php include('./include/scripts.php') ?>

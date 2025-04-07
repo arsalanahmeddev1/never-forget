@@ -6,7 +6,8 @@ include('./include/head.php');
   <?php include('./include/header.php'); ?>
   <section class="inner-banner">
     <div class="container">
-      <h1 class="heading fs-74">Testimonials</h1>
+      <h1 class="heading fs-74" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">Testimonials</h1>
     </div>
   </section>
 </main>
@@ -14,9 +15,12 @@ include('./include/head.php');
   <div class="container">
     <div class="row text-center justify-content-center">
       <div class="col-lg-6">
-        <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
-        <h2 class="heading fs-64 mb-30">What <span>Our Client</span> Says About Us</h2>
-        <p class="mb-60">
+        <span class="btn des-wrapper mb-30" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Never Forget Showing Appreciation</span>
+        <h2 class="heading fs-64 mb-30" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">What <span>Our Client</span> Says About Us</h2>
+        <p class="mb-60" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
           See how businesses like yours have transformed their <br> gifting strategies with NEVER FORGET
         </p>
       </div>
@@ -212,7 +216,8 @@ include('./include/head.php');
         <button class="btn primary-btn border-0">View More Reviews</button>
       </div>
       <div class="">
-        <h3 class="heading fs-64 text-center">
+        <h3 class="heading fs-64 text-center" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         Thoughtful Gifts, Lasting Impressions – Let’s Make Gifting Unforgettable!
         </h3>
       </div>

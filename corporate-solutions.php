@@ -85,7 +85,8 @@ include('./include/head.php');
         </ul>
         <a href="" class="btn primary-btn border-0">Get A Quote</a>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <div class="img-wrapper position-relative">
           <img src="./assets/images/cs-sec-3.png" alt="">
         </div>
@@ -96,12 +97,14 @@ include('./include/head.php');
 <section class="cs-sec-4 pb-150">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <div class="img-wrapper position-relative">
           <img src="./assets/images/cs-sec-4.png" alt="">
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
         <h2 class="heading fs-64 mb-30">Event & <span>Holiday</span> <br> Gifting</h2>
         <p class="mb-20">Make every gift an extension of your brand with customized <br> packaging, premium branding, and high-quality product selections.</p>

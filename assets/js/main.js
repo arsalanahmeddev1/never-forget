@@ -10,7 +10,7 @@ images.forEach(img => {
 });
 
 const primaryBtn = document.querySelectorAll('.primary-btn');
-document.querySelectorAll('.btn').forEach((btn) => {
+document.querySelectorAll('.primary-btn').forEach((btn) => {
   if (!btn.querySelector('span')) {
     const text = btn.textContent.trim();
     const span = document.createElement('span');

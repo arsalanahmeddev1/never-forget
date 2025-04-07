@@ -1,6 +1,6 @@
 <header class="header">
   <div class="top-bar" data-aos="fade-down" data-aos-easing="ease-out-cubic"
-  data-aos-duration="1000">
+    data-aos-duration="1000">
     <div class="container me-0">
       <div class="row justify-content-end">
         <div class="col-lg-9 top-bar-container">
@@ -30,26 +30,26 @@
     <div class="row align-items-center">
       <div class="col-lg-3 col-6">
         <div class="logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000">
-          <img src="./assets/images/logo.png" alt="logo">
+          data-aos-duration="1000">
+          <a href="./" class=""><img src="./assets/images/logo.png" alt="logo"></a>
         </div>
       </div>
       <div class="col-lg-9 col-1">
         <div class="primary-navs" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000">
+          data-aos-duration="1000">
           <div class="primary-navs-inner">
             <ul class="primary-navs-list d-flex align-items-center justify-content-between">
               <div class="close-icon">
                 <i class="fa-solid fa-xmark menu-toggle"></i>
               </div>
-              <li><a class="navs" href="javascript:;">Home</a></li>
-              <li><a class="navs" href="javascript:;">About Us</a></li>
-              <li><a class="navs" href="javascript:;">Shop</a></li>
-              <li><a class="navs" href="javascript:;">How It Works</a></li>
-              <li><a class="navs" href="javascript:;">Corporate Solution </a></li>
-              <li><a class="navs" href="javascript:;">Testimonials</a></li>
-              <li><a class="navs" href="javascript:;">Blogs</a></li>
-              <li><a class="navs" href="javascript:;">Contact Us</a></li>
+              <li><a class="navs" href="./">Home</a></li>
+              <li><a class="navs" href="./about-us.php">About Us</a></li>
+              <li><a class="navs" href="./shop.php">Shop</a></li>
+              <li><a class="navs" href="./how-it-works.php">How It Works</a></li>
+              <li><a class="navs" href="./corporate-solutions.php">Corporate Solution </a></li>
+              <li><a class="navs" href="./testimonials.php">Testimonials</a></li>
+              <li><a class="navs" href="./blogs.php">Blogs</a></li>
+              <li><a class="navs" href="./contact.php">Contact Us</a></li>
               <div class="sm-circle text-white d-flex align-items-center justify-content-center">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </div>
