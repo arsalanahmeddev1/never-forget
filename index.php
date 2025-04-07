@@ -158,7 +158,7 @@ include('./include/header.php');
         </h2>
       </div>
     </div>
-    <div class="d-flex align-items-center gap-11 mb-30" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+    <div class="d-flex flex-wrap flex-lg-nowrap row-gap-70 justify-content-center align-items-center gap-11 mb-30" data-aos="fade-down" data-aos-easing="ease-out-cubic"
     data-aos-duration="1000">
       <div class="card-wrapper">
         <div class="mb-34 sm-circle lg-circle d-flex align-items-center justify-content-center">

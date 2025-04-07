@@ -12,7 +12,7 @@
         Flexible pricing tailored to your business needs.
       </p>
     </div>
-    <div class="row">
+    <div class="row justify-content-center row-gap-50">
       <div class="col-lg-4 col-md-6">
         <div class="card-wrapper plans-card-wrapper position-relative">
           <div class="sm-circle circle-md d-flex align-items-center justify-content-center mx-auto mb-10">

@@ -2,7 +2,15 @@ $(document).ready(function () {
   $("#loading-screen").delay(2000).fadeOut("slow");
   $(".loading").delay(2000).fadeOut("slow");
 });
-AOS.init();
+document.addEventListener('DOMContentLoaded', function () {
+  if (window.innerWidth < 768) {
+    AOS.init({
+      disable: true
+    });
+  } else {
+    AOS.init(); 
+  }
+});
 // for lazy load in images
 const images = document.querySelectorAll('img');
 images.forEach(img => {

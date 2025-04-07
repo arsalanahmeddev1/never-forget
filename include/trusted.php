@@ -16,31 +16,31 @@
       data-aos-duration="1000">Exclusive Product Provider</p>
     <div class="row brands-card-container mb-40" data-aos="fade-down" data-aos-easing="ease-out-cubic"
       data-aos-duration="1000">
-      <div class="col">
+      <div class="col-lg col-12">
         <div class="light-card">
           <img src="./assets/images/brand-01.png" alt="">
         </div>
         <p>Official Corporate Gifting Partner</p>
       </div>
-      <div class="col">
+      <div class="col-lg col-12">
         <div class="light-card">
           <img src="./assets/images/brand-02.png" alt="">
         </div>
         <p>Logistics & Fulfilment Partner</p>
       </div>
-      <div class="col">
+      <div class="col-lg col-12">
         <div class="light-card">
           <img src="./assets/images/brand-03.png" alt="">
         </div>
         <p>Brand Collaboration Specialist</p>
       </div>
-      <div class="col">
+      <div class="col-lg col-12">
         <div class="light-card">
           <img src="./assets/images/brand-04.png" alt="">
         </div>
         <p>Sustainability Advocate</p>
       </div>
-      <div class="col">
+      <div class="col-lg col-12">
         <div class="light-card">
           <img src="./assets/images/brand-05.png" alt="">
         </div>

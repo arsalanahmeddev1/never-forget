@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="row" data-aos="fade-down" data-aos-easing="ease-out-cubic"
-    data-aos-duration="1000">
+      data-aos-duration="1000">
       <div class="col-lg-3">
         <img src="./assets/images/logo-light.png" class="logo-light mb-20" alt="">
         <p class="text-white">
@@ -13,12 +13,16 @@
           Quick <span>Links</span>
         </h3>
         <ul class="footer-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Corporate Gifting Solutions</a></li>
-          <li><a href="#">Partner with Us</a></li>
-          <li><a href="#">FAQ’s</a></li>
-          <li><a href="#">Case Studies</a></li>
+          <li><a class="navs" href="./">Home</a></li>
+          <li><a class="navs" href="./about-us.php">About Us</a></li>
+          <li><a class="navs" href="./corporate-solutions.php">Corporate Gifting Solutions</a></li>
+          <li><a class="navs" href="./testimonials.php">Testimonials</a></li>
+          <li><a class="navs" href="./blogs.php">Blogs</a></li>
+          <li><a class="navs" href="./contact.php">Contact Us</a></li>
+
+          <!-- <li><a href="">Partner with Us</a></li> -->
+          <!-- <li><a href="#">FAQ’s</a></li> -->
+          <!-- <li><a href="#">Case Studies</a></li> -->
         </ul>
       </div>
       <div class="col-lg-3">
@@ -59,6 +63,6 @@
     </div>
   </div>
   <div class="footer-bottom">
-      <h6 class="text-white text-center">© Copyright 2025 Never Forget Showing Appreciation | All Rights Reserved</h6>
-    </div>
+    <h6 class="text-white text-center">© Copyright 2025 Never Forget Showing Appreciation | All Rights Reserved</h6>
+  </div>
 </footer>
