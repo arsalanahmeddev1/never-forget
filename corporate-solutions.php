@@ -13,7 +13,7 @@ include('./include/head.php');
 </main>
 <section class="cs-sec-1 py-150">
   <div class="container">
-    <div class="row justify-content-between">
+    <div class="row justify-content-between row-gap-40 flex-column-reverse flex-lg-row text-center text-lg-start">
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
@@ -40,7 +40,7 @@ include('./include/head.php');
 </section>
 <section class="cs-sec-2 pb-150">
   <div class="container">
-    <div class="row justify-content-between">
+    <div class="row justify-content-between row-gap-40 text-center text-lg-start">
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">
         <div class="img-wrapper position-relative">
@@ -68,7 +68,7 @@ include('./include/head.php');
 </section>
 <section class="cs-sec-3 pb-150">
   <div class="container">
-    <div class="row justify-content-between">
+    <div class="row justify-content-between row-gap-40 flex-column-reverse flex-lg-row text-center text-lg-start">
 
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">
@@ -96,7 +96,7 @@ include('./include/head.php');
 </section>
 <section class="cs-sec-4 pb-150">
   <div class="container">
-    <div class="row justify-content-between">
+    <div class="row justify-content-between row-gap-40 text-center text-lg-start">
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">
         <div class="img-wrapper position-relative">

@@ -17,6 +17,6 @@
 </head>
 
 <body class="position-relative">
-  <div id="loading-screen">
+  <!-- <div id="loading-screen">
     <div class="loading"></div>
-  </div>
+  </div> -->

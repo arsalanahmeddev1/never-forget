@@ -13,7 +13,7 @@ include('./include/head.php');
 </main>
 <section class="hiw-sec-2 py-150">
   <div class="container">
-    <div class="row" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+    <div class="row row-gap-40 text-center text-lg-start" data-aos="fade-down" data-aos-easing="ease-out-cubic"
       data-aos-duration="1000">
       <div class="col-md-6 col-lg-4">
         <div class="card-wrapper bg-transparent">
@@ -60,7 +60,7 @@ include('./include/head.php');
 <section class="hiw-sec-3">
   <div class="container">
     <div class="row">
-      <div class="col-lg-3">
+      <div class="col-lg-3 text-center text-lg-start">
         <span class="btn border-black border-1" data-aos="flip-up" data-aos-easing="ease-out-cubic"
           data-aos-duration="1000" style="padding: 10px 32px">Step 1</span>
         <h2 class="heading fs-74 mt-10" data-aos="fade-right" data-aos-easing="ease-out-cubic"
@@ -115,7 +115,7 @@ include('./include/head.php');
 </section>
 <section class="hiw-sec-4 py-150">
   <div class="container">
-    <div class="row">
+    <div class="row row-gap-40 text-center text-lg-start">
 
       <div class="col-lg-6">
         <div class="img-wrapper position-relative" data-aos="fade-right" data-aos-easing="ease-out-cubic"
@@ -154,7 +154,7 @@ include('./include/head.php');
 </section>
 <section class="hiw-sec-5 sec-bg py-150">
   <div class="container">
-    <div class="row">
+    <div class="row row-gap-40 flex-column-reverse flex-lg-row">
 
 
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
@@ -193,7 +193,7 @@ include('./include/head.php');
 </section>
 <section class="hiw-sec-6 py-150">
   <div class="container">
-    <div class="row">
+    <div class="row row-gap-40 text-center text-lg-start">
 
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">

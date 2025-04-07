@@ -1,6 +1,6 @@
 <section class="cs-sec-5 sec-bg py-100 position-relative">
   <div class="container">
-    <div class="row">
+    <div class="row text-center text-lg-start">
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>

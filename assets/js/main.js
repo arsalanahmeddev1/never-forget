@@ -2,13 +2,25 @@ $(document).ready(function () {
   $("#loading-screen").delay(2000).fadeOut("slow");
   $(".loading").delay(2000).fadeOut("slow");
 });
+$('.search-btn').on('click', function () {
+  $('.search-bar-container').slideToggle('display: inline-block', function () {
+    if ($(this).is(':visible')) {
+      $('.search-bar-container input').focus();
+    }
+  });
+  let searchIcon = document.querySelectorAll('.search-btn i');
+  searchIcon.forEach((i) => {
+    i.classList.toggle('fa-times');
+
+  })
+});
 document.addEventListener('DOMContentLoaded', function () {
-  if (window.innerWidth < 768) {
+  if (window.innerWidth < 1025) {
     AOS.init({
       disable: true
     });
   } else {
-    AOS.init(); 
+    AOS.init();
   }
 });
 // for lazy load in images
@@ -43,34 +55,24 @@ $('.testimonials-slider').slick({
   slidesToScroll: 2,
   prevArrow: '.testimonials-arrows .arrow-left',
   nextArrow: '.testimonials-arrows .arrow-right',
-  // responsive: [
-  //   {
-  //     breakpoint: 1024,
-  //     settings: {
-  //       slidesToShow: 3,
-  //       slidesToScroll: 3,
-  //       infinite: true,
-  //       dots: true
-  //     }
-  //   },
-  //   {
-  //     breakpoint: 600,
-  //     settings: {
-  //       slidesToShow: 2,
-  //       slidesToScroll: 2  
-  //     }
-  //   },
-  //   {
-  //     breakpoint: 480,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 1
-  //     }
-  //   }
-  //   // You can unslick at a given breakpoint now by adding:
-  //   // settings: "unslick"
-  //   // instead of a settings object
-  // ]
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+  ]
 });
 
 $('.slider-for').slick({
@@ -85,7 +87,7 @@ $('.slider-nav').slick({
   slidesToScroll: 1,
   asNavFor: '.slider-for',
   dots: true,
-  centerMode: true,
+  // centerMode: true,
   focusOnSelect: true,
   prevArrow: '.solution-arrows .arrow-left',
   nextArrow: '.solution-arrows .arrow-right',

@@ -96,7 +96,7 @@ include('./include/head.php');
 </section>
 <section class="contact-sec-2 pb-150">
   <div class="container">
-    <div class="row">
+    <div class="row row-gap-40 text-center text-lg-start">
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">
         <div class="img-wrapper position-relative">
@@ -137,7 +137,7 @@ include('./include/head.php');
 </section>
 <section class="contact-sec-2 pb-150">
   <div class="container">
-    <div class="row">
+    <div class="row row-gap-40 text-center text-lg-start flex-column-reverse flex-lg-row">
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">
         <span class="btn des-wrapper mb-20">Never Forget CONTACT INFORMATION</span>

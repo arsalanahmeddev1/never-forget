@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row" data-aos="fade-down" data-aos-easing="ease-out-cubic"
       data-aos-duration="1000">
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-xl-3 col-xxl-3">
         <img src="./assets/images/logo-light.png" class="logo-light mb-20" alt="">
         <p class="text-white">
           Welcome to customer, employee, and individual connections & appreciation, where we believe that business is built on more than just transactions – it’s built on genuine connections and heartfelt appreciation.
         </p>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-xl-2 col-xxl-3">
         <h3 class="heading text-white fs-32 mb-30">
           Quick <span>Links</span>
         </h3>
@@ -19,13 +19,9 @@
           <li><a class="navs" href="./testimonials.php">Testimonials</a></li>
           <li><a class="navs" href="./blogs.php">Blogs</a></li>
           <li><a class="navs" href="./contact.php">Contact Us</a></li>
-
-          <!-- <li><a href="">Partner with Us</a></li> -->
-          <!-- <li><a href="#">FAQ’s</a></li> -->
-          <!-- <li><a href="#">Case Studies</a></li> -->
         </ul>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-xl-4 col-xxl-3">
         <h3 class="heading text-white fs-32 mb-30">
           Need a <span>Custom Gifting</span> Strategy? Let’s Talk!
         </h3>
@@ -46,7 +42,7 @@
           <span class="secondry-font">corporate@neverforgetappreciation.com</span>
         </a>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-xl-3 col-xxl-3">
         <h3 class="heading text-white fs-32 mb-30">
           Subscribe To Our <span>Newsletter</span>
         </h3>

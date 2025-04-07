@@ -13,7 +13,7 @@ include('./include/head.php');
 </main>
 <section class="about-sec-2 py-140">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row row-gap-40 text-center text-lg-start align-items-center">
       <div class="col-lg-6">
         <div class="img-wrapper position-relative" data-aos="fade-right" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">
@@ -37,7 +37,7 @@ include('./include/head.php');
 </section>
 <section class="about-sec-3 py-140">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row text-center text-lg-start flex-column-reverse flex-lg-row row-gap-40 align-items-center">
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
       data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>
@@ -62,7 +62,7 @@ include('./include/head.php');
 </section>
 <section class="about-sec-4 sec-bg py-150">
   <div class="container">
-    <div class="row justify-content-center text-center">
+    <div class="row  justify-content-center text-center">
       <div class="col-lg-6">
         <span class="btn des-wrapper mb-30 text-center mx-0" data-aos="flip-up" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">Never Forget Showing Appreciation</span>
@@ -70,7 +70,7 @@ include('./include/head.php');
         data-aos-duration="1000">Our <span>Services</span></h2>
       </div>
     </div>
-    <div class="row" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+    <div class="row row-gap-40" data-aos="fade-down" data-aos-easing="ease-out-cubic"
     data-aos-duration="1000">
       <div class="col-md-6 col-lg-3">
         <div class="services-card-wrapper">
@@ -105,7 +105,7 @@ include('./include/head.php');
 </section>
 <section class="about-sec-5 py-150">
   <div class="container">
-    <div class="row">
+    <div class="row flex-column-reverse flex-lg-row text-center text-lg-start row-gap-40">
       <div class="col-lg-6" data-aos="fade-right" data-aos-easing="ease-out-cubic"
       data-aos-duration="1000">
         <span class="btn des-wrapper mb-30">Never Forget Showing Appreciation</span>

@@ -50,7 +50,7 @@ include('./include/header.php');
   </div>
 </section>
 <section class="solutions-sec">
-  <div class="container me-0">
+  <div class="container me-auto me-lg-0">
     <div class="col-lg-6">
       <span class="btn des-wrapper mb-20" data-aos="flip-up" data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">Never Forget Showing Appreciation</span>
@@ -62,12 +62,12 @@ include('./include/header.php');
     </div>
     <div class="row">
       <div class="solutions-slider-wrapper mb-40">
-        <div class="row">
+        <div class="row row-gap-20">
           <div class="col-lg-7">
             <div class="slider slider-for">
               <div class="d-flex">
                 <div class="solutions-main-img-wrapper">
-                  <img src="./assets/images/solutions-img-lg.png" alt="">
+                  <img src="./assets/images/solution-img-01.png" alt="">
                 </div>
                 <div class="text-content">
                   <h4 class="heading light-black fs-40 mb-30">
@@ -79,7 +79,7 @@ include('./include/header.php');
               <!-- Repeat for other slides -->
               <div class="d-flex">
                 <div class="solutions-main-img-wrapper">
-                  <img src="./assets/images/solutions-img-lg.png" alt="">
+                  <img src="./assets/images/solution-img-02.png" alt="">
                 </div>
                 <div class="text-content">
                   <h4 class="heading light-black fs-40 mb-30">
@@ -90,7 +90,7 @@ include('./include/header.php');
               </div>
               <div class="d-flex">
                 <div class="solutions-main-img-wrapper">
-                  <img src="./assets/images/solutions-img-lg.png" alt="">
+                  <img src="./assets/images/solution-img-03.png" alt="">
                 </div>
                 <div class="text-content">
                   <h4 class="heading light-black fs-40 mb-30">
@@ -101,7 +101,7 @@ include('./include/header.php');
               </div>
               <div class="d-flex">
                 <div class="solutions-main-img-wrapper">
-                  <img src="./assets/images/solutions-img-lg.png" alt="">
+                  <img src="./assets/images/solution-img-04.png" alt="">
                 </div>
                 <div class="text-content">
                   <h4 class="heading light-black fs-40 mb-30">
@@ -116,16 +116,16 @@ include('./include/header.php');
           <div class="col-lg-5">
             <div class="slider slider-nav">
               <div class="solutions-right-img-wrapper">
-                <img src="./assets/images/solutions-img-md-01.png" alt="">
+                <img src="./assets/images/solution-img-01.png" alt="">
               </div>
               <div class="solutions-right-img-wrapper">
-                <img src="./assets/images/solutions-img-md-02.png" alt="">
+                <img src="./assets/images/solution-img-02.png" alt="">
               </div>
               <div class="solutions-right-img-wrapper">
-                <img src="./assets/images/solutions-img-md-03.png" alt="">
+                <img src="./assets/images/solution-img-03.png" alt="">
               </div>
               <div class="solutions-right-img-wrapper">
-                <img src="./assets/images/solutions-img-md-03.png" alt="">
+                <img src="./assets/images/solution-img-04.png" alt="">
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@ include('./include/header.php');
         </h2>
       </div>
     </div>
-    <div class="d-flex flex-wrap flex-lg-nowrap row-gap-70 justify-content-center align-items-center gap-11 mb-30" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+    <div class="d-flex flex-wrap flex-xl-nowrap row-gap-70 justify-content-center align-items-center gap-11 mb-30" data-aos="fade-down" data-aos-easing="ease-out-cubic"
     data-aos-duration="1000">
       <div class="card-wrapper">
         <div class="mb-34 sm-circle lg-circle d-flex align-items-center justify-content-center">
@@ -238,7 +238,7 @@ include('./include/header.php');
     </div>
     <div class="row justify-content-center">
       <div class="testimonials-slider">
-        <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-center justify-content-xl-end">
           <div class="card-wrapper test-card-wrapper position-relative">
             <div class="row">
               <div class="col-lg-4">

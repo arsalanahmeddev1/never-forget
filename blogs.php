@@ -15,7 +15,7 @@ include('./include/head.php');
   <div class="container">
     <div class="row row-gap-40">
       <div class="col-lg-12">
-        <div class="d-flex align-items-center justify-content-end flex-wrap gap-20 action-btns-wrapper">
+        <div class="d-flex align-items-center justify-content-center justify-lg-content-end flex-wrap gap-20 action-btns-wrapper">
           <button class="btn secondary-btn">Most Recent</button>
           <button class="btn secondary-btn">Highest Rated</button>
           <button class="btn secondary-btn">Trending Now</button>
